@@ -10,4 +10,4 @@ Habilidades adquiridas:
 Modelado de series temporales con redes neuronales recurrentes (RNN) y LSTM.
 Preprocesamiento avanzado de datos con pandas y MinMaxScaler.
 Implementación de modelos de predicción con Keras y ajuste de hiperparámetros.
-Visualización de resultados mediante matplotlib para análisis y comunicación de insights.
+Visualización de resultados mediante matplotlib para análisis y comunicación de insights. 
