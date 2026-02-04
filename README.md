@@ -14,13 +14,17 @@ El enfoque está orientado al modelado de series temporales financieras, captura
 
 # 📁Descripción de los datos
 
-- Se utilizan dos conjuntos de datos:
+Se utilizan dos conjuntos de datos:
 - Datos de entrenamiento
 GOOG.csv
+
 - Precio de apertura histórico de Google Alphabet.
+- 
 - Datos de prueba
 GOOG-Jun-2024.csv
+
 - Precios reales utilizados para validar el modelo.
+  
 - Variable utilizada:
   -- Open: precio de apertura de la acción.
 
@@ -29,17 +33,19 @@ GOOG-Jun-2024.csv
 - Selección del precio de apertura.
 - Normalización con MinMaxScaler (0–1).
 - Creación de ventanas temporales de 60 días.
+
 - Transformación de los datos a formato 3D requerido por LSTM:
   -- (n_samples, timesteps, n_features)
 
 # 🧠Arquitectura del modelo
 
-- Red neuronal profunda basada en LSTM:
+Red neuronal profunda basada en LSTM:
 - 4 capas LSTM (300 → 100 → 100 → 100 unidades)
 - Capas Dropout (0.2) para regularización
 - Capa densa final para predicción del precio
 - Función de pérdida: Mean Squared Error
 - Optimizador: Adam
+  
 - Entrenamiento:
   -- 300 epochs
   -- Batch size: 32
