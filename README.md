@@ -19,7 +19,7 @@ Se utilizan dos conjuntos de datos:
 GOOG.csv
 
 - Precio de apertura histórico de Google Alphabet.
-- 
+  
 - Datos de prueba
 GOOG-Jun-2024.csv
 
@@ -77,10 +77,10 @@ Red neuronal profunda basada en LSTM:
 
 # 📌Consideraciones
 
--- El modelo utiliza solo precios históricos, sin variables macroeconómicas.
--- No se realiza optimización de hiperparámetros.
--- La predicción es sensible a la ventana temporal seleccionada.
--- Ideal como demostración de Deep Learning aplicado a finanzas.
+- El modelo utiliza solo precios históricos, sin variables macroeconómicas.
+- No se realiza optimización de hiperparámetros.
+- La predicción es sensible a la ventana temporal seleccionada.
+- Ideal como demostración de Deep Learning aplicado a finanzas.
 
 # ⚠️Disclaimer
 
